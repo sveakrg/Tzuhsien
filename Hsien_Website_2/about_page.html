@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>關於我</title>
+
+<link href="Css/about_page.css" rel="stylesheet" type="text/css">
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body class="bg-dark" onLoad="MM_preloadImages('image/cat3.png')">
+	
+<header>
+				<nav class="nav">
+					<div class="nav_link">
+						<a  href="front_page.html">首頁</a>
+						<a  href="works_page.html">作品</a>
+						<a  href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">推薦</a>
+							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+								<li><a class="dropdown-item active" href="website_page.html"> <img src="image/icon/PC.png" width="20" height="20" alt="" class="pc_pic"/> 網站</a></li>
+								<li><a class="dropdown-item" href="software_page.html"><img src="image/icon/software.png" width="20" height="20" alt="" class="software_pic"/> 軟體</a></li>
+								<li><a class="dropdown-item" href="channel_page.html"><img src="image/icon/cemera.png" width="20" height="20" alt="" class="channel_pic"/> 頻道</a></li>
+							  </ul>
+							
+						<a  href="about_page.html">關於</a>
+					</div>
+				</nav>
+</header>
+
+	<div class="box_base">
+		
+		<div class ="leftbox">
+			<nav id = "sidebar">
+			  <div class="title">
+					
+					<div id="headPic"><img src="image/cat2.png" alt="" width="120" height="123" class="img-fluid" id="cat" onClick="MM_swapImage('cat','','image/cat3.png',0.2)" onMouseDown="MM_swapImgRestore()"/> 
+					</div>
+					
+                	<div id="word">
+                   	  	<p>Tzu-Hsien</p> 
+						
+                    </div>
+				</div>
+				
+				<ul class="List-unstyles">
+					<li>
+						<a href="front_page.html"><img src="image/icon/home.png" width="20" height="20" alt="" id="home_pic"/> 首頁</a>
+					</li>
+					<li>
+						<a href="works_page.html"><img src="image/icon/box.png" width="20" height="20" alt="" id="work_pic"/> 作品</a>
+						  
+					</li>
+					
+					<li>
+						<a href="#sublist" data-bs-toggle="collapse" id="dropdown"><img src="image/icon/star.png" width="20" height="20" alt="" id="recommend_pic"/> 推薦</a>
+							  <ul id="sublist" class="list-unstyled collapse">
+									<li>
+										<a href="website_page.html"><img src="image/icon/PC.png" width="20" height="20" alt="" class="pc_pic"/> 網站</a>
+							   		 </li>
+								  
+								  	<li>
+										<a href="software_page.html"><img src="image/icon/software.png" width="20" height="20" alt="" class="software_pic"/> 軟體</a>
+									</li>
+								  
+								  	<li>
+										<a href="channel_page.html"><img src="image/icon/cemera.png" width="20" height="20" alt="" class="channel_pic"/> 頻道</a>
+									</li>
+							  </ul>
+						</li>
+					<li>
+						<a href="about_page.html"><img src="image/icon/people.png" width="20" height="20" alt="" id="about_pic"/> 關於</a>
+					</li>
+				</ul>
+		  </nav>
+			</div>
+				
+
+			
+			<div class="container">
+				<div class="row">
+					<div class ="rightbox">
+						
+						<div class="r_box1_title"> 
+							<p><span>介紹</span></p>
+						</div>
+						
+						<div class="bigbox">
+							
+							<div class="col-xl-2 col-md-1 col-sm-3 r_box1">
+								
+                            </div>
+						
+							<div class="col-xl-3 col-md-4 col-sm-7 r_box2">
+								
+								 <div class="r_box1small">
+									 
+								   <div class="r_boxsmall_top">
+										 <img src="image/cat2.png" width="110" height="200" alt="" class="img-fluid r_boxsmall_topPic"/>
+									 </div>
+									 
+								   <div class="r_boxsmall_buttom">
+									   <p class="r_boxsmall_buttom_title">胡子賢 Tzu-Hsien Hu</p>
+									   <p class="r_boxsmall_buttom_content">長榮大學 | 互動設計系 </p>
+								    </div>
+                                 </div>
+							
+                            </div>
+							
+
+							<div class="col-xl-1 col-md-1 col-sm-3 r_box3">
+								
+								 
+							
+                            </div>
+							
+							<div class="col-xl-3 col-md-4 col-sm-7 r_box4">
+								
+								<div class="r_box1small">
+									 
+								   <div class="r_boxsmall_top">
+										 <img src="image/franktung.png" width="150" height="200" alt="" class="img-fluid "/>
+									 </div>
+									 
+								   <div class="r_boxsmall_buttom">
+									   <p class="r_boxsmall_buttom_title">謝東成  Tung-Cheng Hsieh</p>
+									   <p class="r_boxsmall_buttom_content">長榮大學 | 助理教授</p>
+								    </div>
+                                 </div>
+							
+                            </div>
+					  	
+						</div>
+                    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+				
+</body>
+</html>

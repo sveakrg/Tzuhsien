@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+body::-webkit-scrollbar /* 隱藏網頁滑條 */{ 
+    display: none;
+}
+
+
+header{
+	background:#2C3137;
+}
+
+header .nav{
+	
+	box-shadow: 1px 1px 10px 1px rgb(0,0,0);
+}
+
+header .nav_link{
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 15%;
+}
+
+header .nav a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+header .nav a:hover{
+	color: white;
+}
+
+
+.box_base{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+
+
+.leftbox{
+	width: 15%;
+	height: 100vh;
+	color: white;
+	transition: 1s;
+	float: left;
+	background: #2C3137;
+}
+
+
+.title{
+	margin-top: 20px;
+}
+
+#headPic{
+	width: 120px;
+	height: 120px;
+	background:#E1E1E1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 100px;
+	overflow: hidden; /* 隱藏超出div尺寸的部分 */
+	box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);/*陰影 : 左右 上下 模糊 擴散*/
+}
+
+#word{
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#home_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+#work_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+.channel_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+#recommend_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+.pc_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+.software_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+#about_pic{
+	margin-bottom: 5px;
+	filter: brightness(255);
+}
+
+
+.leftbox ul {
+	list-style: none; /* 移除ul標記 */
+	margin-top: 10px; 
+	
+}
+
+.leftbox ul li a{
+	color: inherit; /* 移除超連結顏色 */
+	text-decoration: none;  /* 移除超連結底線 */
+	padding: 8%;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+
+.leftbox ul li a:hover{
+	background:#171A1D;
+	border-radius: 10px;
+}
+
+#sublist{
+	margin-left: 50px;
+}
+
+.leftbox ul ul li a:hover{
+	background-color:#3D444C;
+}
+
+
+
+
+.rightbox{
+	width: 90%;
+	height: 100vh;
+	color: white;
+	background:#212529;
+  	overflow-y: scroll; /* 啟用縱向滾動 */
+	box-shadow: 1px 8px 8px 5px rgb(0, 0, 0);
+	
+
+	
+}
+
+.rightbox::-webkit-scrollbar {
+  width: 7px; /* 滑條寬度 */
+}
+
+.rightbox::-webkit-scrollbar-button {
+
+  background: white; /* 滑條上下間距 */
+
+}
+
+.rightbox::-webkit-scrollbar-track-piece {
+
+  background: white; /* 滑條背景*/
+
+}
+
+.rightbox::-webkit-scrollbar-thumb {   /* 滑條樣式 */
+
+  border-radius: 4px;	
+	
+  background-color: rgb(100, 100, 100);
+
+}
+
+.rightbox::-webkit-scrollbar-track { /* 滑條陰影 */
+
+  box-shadow: transparent;
+
+}
+
+
+.rightbox_title{
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 4%;
+	font-size: 40px;
+	font-weight: bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	
+}
+.rightbox_title span{
+	padding-bottom: 10px;
+	border-bottom: 3px solid #A2A2A2;
+	border-radius: 10px;
+}
+
+
+
+
+.box1{
+	width: 10%;
+	height:10%;
+	margin-top: 5%;
+	margin-left: 50px;
+	margin-right: 30px;
+	float: left;
+
+}
+
+.box2{
+	width: 10%;
+	height:10%;
+	margin-top: 5%;
+	margin-left: 50px;
+	margin-right: 30px;
+	float: left;
+	
+}
+
+
+
+
+
+
+.r_box_left{
+	width: 25%;
+	height: 100%;
+	background: #212529;
+	border: 2px solid #5C382F;
+	border-radius: 10px 0px 0px 10px;
+	box-shadow: 1px 1px 4px 2px rgb(0,0,0);
+	padding-top: 10px;
+	float: left;
+}
+
+.r_box_leftPic{
+	border-radius: 10px;
+}
+
+.r_box_Cinema_4DPic{
+	width: 70px;
+}
+
+.r_box_left:hover{
+	background:#31363C;
+}
+
+.r_box_right{
+	width:75%;
+	height: 100%;
+	background: #212529;
+	border: 2px solid #5C382F;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 1px 1px 4px 2px rgb(0,0,0);
+	float: left;
+	font-size: 1px;
+}
+
+.r_box_right:hover{
+	background:#31363C;
+}
+
+.r_box_rightWord{
+	font-size: 15px;
+	margin-top: 7%;
+	color: #8FD5F1;
+	font-weight: bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+
+.rightbox_footer{
+	width: 100%;
+	height: 60%;
+}
+
+
+@media (max-width:1000px) /* sidebar根據視窗縮放*/ {
+	.leftbox
+	{
+		margin-left: -300px;
+		width: 150px;
+		font-size: 20px;
+	}
+	
+	.collapse-btn
+	{
+		position: relative;
+		top: 1%;
+		left: 110px;
+	}
+	
+	.leftbox.active
+	{
+		margin-left: 0px;
+	}
+}

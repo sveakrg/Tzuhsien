@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>推薦頻道</title>
+
+<link href="css/channel_page.css" rel="stylesheet" type="text/css">
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body class="bg-dark">
+	
+<header>
+				<nav class="nav">
+					<div class="nav_link">
+						<a  href="front_page.html">首頁</a>
+						<a  href="works_page.html">作品</a>
+						<a  href="#" class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">推薦</a>
+							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+								<li><a class="dropdown-item active" href="website_page.html"> <img src="image/icon/PC.png" width="20" height="20" alt="" class="pc_pic"/> 網站</a></li>
+								<li><a class="dropdown-item" href="software_page.html"><img src="image/icon/software.png" width="20" height="20" alt="" class="software_pic"/> 軟體</a></li>
+								<li><a class="dropdown-item" href="channel_page.html"><img src="image/icon/cemera.png" width="20" height="20" alt="" class="channel_pic"/> 頻道</a></li>
+							  </ul>
+							
+						<a  href="about_page.html">關於</a>
+					</div>
+				</nav>
+</header>
+
+	<div class="box_base">
+		
+		<div class ="leftbox">
+			<nav id = "sidebar">
+			  <div class="title">
+					
+					<div id="headPic"><img src="image/cat2.png" alt="" width="120" height="123" class="img-fluid" id="cat" onClick="MM_swapImage('cat','','image/cat3.png',0.2)" onMouseDown="MM_swapImgRestore()"/> 
+					</div>
+					
+                	<div id="word">
+                   	  	<p>Tzu-Hsien</p> 
+						
+                    </div>
+			  </div>
+				
+				<ul class="List-unstyles">
+					<li>
+						<a href="front_page.html"><img src="image/icon/home.png" width="20" height="20" alt="" id="home_pic"/> 首頁</a>
+					</li>
+					<li>
+						<a href="works_page.html"><img src="image/icon/box.png" width="20" height="20" alt="" id="work_pic"/> 作品</a>
+						  
+					</li>
+				
+					<li>
+						<a href="#sublist" data-bs-toggle="collapse" id="dropdown"><img src="image/icon/star.png" width="20" height="20" alt="" id="recommend_pic"/> 推薦</a>
+							  <ul id="sublist" class="list-unstyled collapse">
+									<li>
+										<a href="website_page.html"><img src="image/icon/PC.png" width="20" height="20" alt="" class="pc_pic"/> 網站</a>
+							    </li>
+								  
+								  	<li>
+										<a href="software_page.html"><img src="image/icon/software.png" width="20" height="20" alt="" class="software_pic"/> 軟體</a>
+									</li>
+								  
+								  	<li>
+										<a href="channel_page.html"><img src="image/icon/cemera.png" width="20" height="20" alt="" class="channel_pic"/> 頻道</a>
+									</li>
+							  </ul>
+				  </li>
+					<li>
+						<a href="about_page.html"><img src="image/icon/people.png" width="20" height="20" alt="" id="about_pic"/> 關於</a>
+					</li>
+				</ul>
+		  </nav>
+	  </div>
+				
+
+			
+			<div class="container">
+				<div class="row">
+					<div class ="rightbox">
+						<div class ="rightbox_title"><span>教學</span></div>
+						<div class="bigbox1">
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@StylizedStation" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic1.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic" /></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">Stylized Station</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@CGGeek" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic2.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">CG Geek</p></div>  
+							</a>
+					  </div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@Imphenzia" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic3.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">Imphenzia</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@Polyfjord" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic4.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Polyfjord</p></div>  
+							</a>
+					  </div>
+						
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@freecodecamp" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic5.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">freeCodeCamp.org</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@papayaclass" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic6.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">PAPAYA 電腦教室</p></div>  
+							</a>
+					  </div>
+						
+						 
+							
+						</div>
+						
+						
+						<div class ="rightbox_title2">
+						  <p><span><br>
+						    </span></p>
+						  <p>&nbsp;</p>
+						  <p><span>動畫創作</span></p>
+                        </div>
+						<div class="bigbox1">
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@GH.S" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic7.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic" /></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">GH'S</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@ArimuraTaishi12" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic8.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Arimura Taishi </p></div>  
+							</a>
+					  </div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@gensho_yasuda" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic9.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">安田現象</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@R_9u_M" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic10.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">R9M </p></div>  
+							</a>
+					  </div>
+						
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@freedobby" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic11.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">Free Dobby</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@Rawfler" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic12.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Rawfler</p></div>  
+							</a>
+					  </div>
+						</div>
+						
+						
+						
+					  <div class ="rightbox_title2">
+					    <p><span><br>
+					      </span></p>
+					    <p>&nbsp;</p>
+					    <p><span>音樂</span></p>
+                      </div>
+						<div class="bigbox1">
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/channel/UCyC_4jvPzLiSkJkLIkA7B8g" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic13.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic" /></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">Lindsey Stirling</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@marasy8" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic14.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">marasy8</p></div>  
+							</a>
+					  </div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@MIMI...official" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic19.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">MIMI</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@Ayase_YOASOBI" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic15.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Ayase / YOASOBI</p></div>  
+							</a>
+					  </div>
+						
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@ooo0eve0ooo" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic16.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">Eve</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@officialyoutubechannel3019" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic24.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">優里 YouTube Channel</p></div>  
+							</a>
+					  </div>
+							
+					   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@willstetson" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic17.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Will Stetson</p></div>  
+							</a>
+					  </div>
+						
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@DUSTCELL" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic18.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">DUSTCELL</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@HoneyWorksOFFICIAL" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic20.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">HoneyWorks OFFICIAL</p></div>  
+							</a>
+					  </div>
+							
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@MrsGREENAPPLE_Official/videos" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic21.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Mrs. GREEN APPLE</p></div>  
+							</a>
+					  </div>
+						
+						<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box1">
+							  <a href="https://www.youtube.com/@RADWIMPS_official" target="_blank" class="r_box_link">
+								  <div class="r_box_left"><img src="image/recommend/channel/pic22.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								  <div class="r_box_right"> <p class="r_box_rightWord">RADWIMPS</p></div> 
+							  </a>
+						</div>
+						
+					  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 box2">
+							<a href="https://www.youtube.com/@reolch" target="_blank" class="r_box_link">
+								<div class="r_box_left"><img src="image/recommend/channel/pic23.jpg" width="50" height="43" alt="" class="img-fluid r_box_leftPic"/></div>
+								<div class="r_box_right"> <p class="r_box_rightWord">Reol Official </p></div>  
+							</a>
+					  </div>		
+				      		 
+						</div>
+						
+						<div class="rightbox_footer"></div>
+					
+               	  </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+				
+</body>
+</html>
